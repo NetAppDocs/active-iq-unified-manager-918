@@ -1,6 +1,7 @@
 ---
 settings:
   name: Active IQ Unified Manager 
+  downlevel: true
   internal:
     pdf_enabled: true
   prod:
@@ -9,9 +10,11 @@ settings:
   versions:
     # Current repo stanza comes first
     - version-number: "9.18"
-      url: /active-iq-unified-manager
+      url: /active-iq-unified-manager-918
     # Additional releases newest to oldest
     # Release in GitHub (typical)
+    - version-number: "9.20"
+      url: /active-iq-unified-manager
     - version-number: "9.16"
       url: /active-iq-unified-manager-916    
     - version-number: "9.14"
