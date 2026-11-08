@@ -1,0 +1,23 @@
+---
+permalink: health-checker/task_edit_group_actions.html
+sidebar: sidebar
+keywords: edit, group actions
+summary: "You can edit the group action parameters that you configured in Unified Manager, such as the group action name, description, associated group name, and parameters of the action type."
+---
+= Edit group actions in Active IQ Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the group action parameters that you configured in Unified Manager, such as the group action name, description, associated group name, and parameters of the action type.
+
+.Before you begin
+
+You must have the Application Administrator or Storage Administrator role.
+
+.Steps
+. In the left navigation pane, click *Storage Management* > *Groups*.
+. In the *Group Actions* tab, select the group action that you want to edit, and then click *Edit*.
+. In the *Edit Group Action* dialog box, change the group action name, description, associated group name, and parameters of the action type, as required.
+. Click *Save*.
+// 2025-6-11, OTHERDOC-133
